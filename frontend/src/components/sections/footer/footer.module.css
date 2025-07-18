@@ -1,0 +1,40 @@
+*{
+   margin:0;
+   padding:0;
+  
+}
+footer{
+    background-color: white;
+
+}
+
+
+.footer_details {
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.content,p{
+    width: '200px';
+    padding-top:15px;
+}
+.contentt,li{
+padding-top:15px;
+list-style-type: none;
+}
+.contenttt,li{
+    padding-top:15px;
+}
+.link{
+    display:flex;
+    justify-content: space-evenly;
+    padding:35px;
+    
+}
+.copyrights{
+      display:flex;
+      justify-content:space-evenly;
+
+}
+
+
