@@ -11,10 +11,6 @@ export default function Footer(){
                     <p>Explore.</p> 
                     <p>Learn.</p>
                     <p>Share.</p>
-                        
-                        
-                    
-
                 </div>
                 <div className={style.contentt}>
                     <h4>QUICK LINKS</h4>
@@ -45,9 +41,9 @@ export default function Footer(){
                 </div>
             </div>
             <div className={style.copyrights}>
-                <ul>
-                <li>&copy; 2025 SIVA NAMBI SHOTS. All rights reserved.</li>
-                </ul>
+                
+             <p>&copy; 2025 SIVA NAMBI SHOTS. All rights reserved.</p>
+              
 
             </div>
         </footer>
