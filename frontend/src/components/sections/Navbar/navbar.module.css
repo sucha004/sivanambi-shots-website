@@ -6,8 +6,8 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-        background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 15px;
 }
 
@@ -15,6 +15,7 @@
     display: flex;
     gap: 20px;
     list-style-type: none;
+    cursor: pointer;
 }
 
 .links{
@@ -22,14 +23,10 @@
     gap: 10px;
 }
 
-li{
+.navli a{
     color: gray;
 }
 
-li:hover{
-    color: white;
-}
-
-.links a {
-    color: white;
+.navli a:hover{
+    color: black;
 }
