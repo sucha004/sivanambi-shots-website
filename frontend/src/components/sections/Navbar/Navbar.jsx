@@ -8,11 +8,11 @@ export default function Navbar (){
 
 
             <ul className={style.ul}>
-                <li> <a>Home</a></li>
-                <li> <a >About</a></li>
-                <li> <a >Services</a></li>
-                <li> <a >Contact</a></li>
-                <li> <a >nav</a></li>
+                <li className={style.navli}> <a>Home</a></li>
+                <li className={style.navli}> <a >About</a></li>
+                <li className={style.navli}> <a >Services</a></li>
+                <li className={style.navli}> <a >Contact</a></li>
+                <li className={style.navli}> <a >nav</a></li>
             </ul>
 
             <div className={style.links}>

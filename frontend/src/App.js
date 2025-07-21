@@ -5,8 +5,10 @@ import Navbar from './components/sections/Navbar/Navbar';
 
 function App() {
   return (
-    <Navbar/>
-    <Footer/>
+    <>
+      <Navbar/>
+      <Footer/>
+    </>
   );
 }
 
